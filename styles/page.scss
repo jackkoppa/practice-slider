@@ -1,0 +1,22 @@
+// Variables used throughout
+@import "variables";
+.logo-image {
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+	position: absolute;
+	right: 15px;
+	top:15px;	
+	width: 200px;
+	z-index: 20;
+}
+
+.column-6 {
+	float: left;
+	padding: 2%;
+	width: 46%;
+	@include bp(mobile) {
+		width: 96%;
+	}
+}
+

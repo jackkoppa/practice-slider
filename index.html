@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Play Ultimate</title>  
+    <link type="text/css" rel="stylesheet" href="styles/main.css" />
+    <link type="text/css" rel="stylesheet" href="assets/font-awesome/scss/font-awesome.css" />
+</head>
+
+
+<body>
+    <header>
+    	<div class="logo-image" style="background-image: url(assets/images/usc_ultimate_logo.png);"></div>
+        <div class="slider-wrapper" id="header-slider" data-animation="2800">
+            <!-- include all slides in HTML, rather than dynamically generate w/ JS objects, for graceful degradation -->
+            <!-- would be good to set an HTML template for .slide, and generate slides w/ node & grunt -->
+            <div class="slide initial">
+                <div class="image-wrapper" style="background-image: url(assets/images/usc_ultimate2.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>Meet the Friendliest People on Campus</h1>
+                    <button>
+                        <a href="#">Our Team</a>
+                    </button>
+                </div>
+            </div>            
+            <div class="slide">
+                <div class="image-wrapper" style="background-image: url(assets/images/beach_ultimate.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>Relax and De-Stress</h1>
+                    <button>
+                        <a href="#">Schedule</a>
+                    </button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="image-wrapper" style="background-image: url(assets/images/usc_ultimate1.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>Enjoy Competitive Ultimate Frisbee</h1>
+                    <button>
+                        <a href="#">Accomplishments</a>
+                    </button>
+                </div>
+            </div>   
+            <div class="slider-nav-wrapper">
+                <div class="slider-nav-container">
+                    <div class="dot-nav-wrapper" id="dot-nav-header-slider-wrapper">
+                        <span class="dot-nav-circle dot-nav-play-pause slider-button pause">
+                            <i class="fa fa-pause-circle-o pause" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle-o play" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <!-- generated from slider.js -->
+                    <div class="loading-wrapper">
+                        <div class="loading-bar"></div>
+                    </div>
+                </div>
+            </div>
+            <span class="slider-arrow slider-button left-arrow"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            <span class="slider-arrow slider-button right-arrow"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>       
+        </div><!--#slider-container-->       
+    </header>
+    <br/>
+    <br/>
+    <section class="column-6">
+    <h3>This would be some home page info text</h3>
+    <p>Bacon ipsum dolor amet aliqua drumstick nisi prosciutto pastrami spare ribs ex consequat kielbasa turducken sed proident sunt ham hock fatback. Officia cillum corned beef bresaola aute esse velit ball tip sint shank sed. Leberkas pancetta reprehenderit andouille short ribs id filet mignon officia exercitation corned beef swine jowl pastrami. Minim sausage cupim capicola. Eu pariatur sirloin, jerky meatloaf nisi sunt chuck cupim spare ribs occaecat. Culpa swine consectetur drumstick tri-tip pork beef ribs adipisicing ham hock.</p>
+
+    <h3>Another section header</h3>
+    <p>Sirloin chicken est nostrud cillum biltong hamburger. Sed tenderloin consectetur short ribs velit, pork chop spare ribs duis sint excepteur nulla. Incididunt short ribs cupim, cow nostrud flank lorem enim cupidatat ullamco pig shankle. Bresaola pork chop voluptate adipisicing ad filet mignon. Short loin chuck officia, kevin cupidatat turkey fatback ad duis aliqua excepteur ut picanha. Tempor filet mignon ham prosciutto fatback. Swine spare ribs tongue, shoulder consequat porchetta laboris.</p>
+    <p>Gotta love baconipsum.com</p>
+
+    </section>
+    <section class="column-6">
+        <div class="slider-wrapper" id="sidebar-slider" data-timing="7000">
+            <!-- include all slides in HTML, rather than dynamically generate w/ JS objects, for graceful degradation -->
+            <!-- would be good to set an HTML template for .slide, and generate slides w/ node & grunt -->
+            <div class="slide initial">
+                <div class="image-wrapper" style="background-image: url(assets/images/usc_ultimate_sb1.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>Win the Points!</h1>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="image-wrapper" style="background-image: url(assets/images/usc_ultimate_sb2.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>Do the Things</h1>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="image-wrapper" style="background-image: url(assets/images/usc_ultimate_sb3.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>Throw Flat Balls</h1>
+                </div>
+            </div>  
+             <div class="slide">
+                <div class="image-wrapper" style="background-image: url(assets/images/usc_ultimate_sb4.jpg);">
+                    <span class="alt-text"></span>
+                </div>
+                <div class="overlay-text">
+                    <h1>We Play More Sports!</h1>
+                </div>
+            </div>  
+            <div class="slider-nav-wrapper">
+                <div class="slider-nav-container">
+                    <div class="dot-nav-wrapper">
+                    	<!-- nav indicators are generated by js/slider.js, based on how many slides there are -->
+                        <span class="dot-nav-circle dot-nav-play-pause slider-button pause">
+                            <i class="fa fa-pause-circle-o pause" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle-o play" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <!-- generated from slider.js -->
+                    <div class="loading-wrapper">
+                        <div class="loading-bar"></div>
+                    </div>
+                </div>
+            </div>
+            <span class="slider-arrow slider-button left-arrow"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            <span class="slider-arrow slider-button right-arrow"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>       
+        </div><!--#slider-container-->
+
+
+    </section>
+
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/slider.js"></script>
+
+</body>
+</html>

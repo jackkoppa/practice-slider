@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  font-family: 'open_sans', Arial, sans-serif;
+  margin: 0; }
+
+h1 {
+  color: #981d20;
+  font-weight: bold; }
+
+button {
+  background-color: #fcaa1a;
+  border: none;
+  box-shadow: 1px 1px 12px -3px #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s; }
+  button:hover {
+    border: none;
+    box-shadow: 1px 1px 22px -3px #000000; }
+  button a {
+    color: #ffffff;
+    text-decoration: none; }
+
+/*# sourceMappingURL=default.css.map */

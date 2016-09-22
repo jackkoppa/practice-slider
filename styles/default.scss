@@ -1,0 +1,33 @@
+// Variables used throughout
+@import "variables";
+
+
+body {	
+	height: 100%;
+	font-family: 'open_sans', Arial, sans-serif;
+	margin: 0;
+}
+h1 {
+	color: $primaryColor;
+	font-weight: bold;
+
+}
+
+button {
+	background-color: $secondaryColor;
+	border: none;
+	box-shadow: 1px 1px 12px -3px #000000;
+	color: #ffffff;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .5s;
+	&:hover {
+		border: none;
+		box-shadow: 1px 1px 22px -3px #000000;
+	}
+	a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+}

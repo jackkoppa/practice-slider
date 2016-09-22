@@ -1,0 +1,27 @@
+// Nav colors & effects
+$navColor: #ffffff;
+$navOpacity: 0.7;
+// Set nav background rgba here (could easily try complementary color to $navColor)
+	$navR: 256;
+	$navG: 256;
+	$navB: 256;
+	$navA: $navOpacity;
+
+// Set color pallete
+$primaryColor: #981d20;
+$secondaryColor: #fcaa1a;
+
+//Media Query Mixin
+@mixin bp($point) {
+  @if $point == desktop {
+    @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == tablet {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == mobile {
+    @media (max-width: 600px)  { @content; }
+  }
+}
+
+
