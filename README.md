@@ -1,8 +1,6 @@
 # README #
 
-A README for Jack's slider project
-
-### Front-End Dev Test for IT-Consultis ###
+## Front-End Dev Test for a Web Agency ###
 
 ### Requirements ###
 
