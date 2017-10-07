@@ -36,3 +36,5 @@ we must absolutely insist on."
 * Jack Koppa
 * hello@jackkoppa.com
 * [jackkoppa.com](http://jackkoppa.com)
+
+Available on GitHub Pages: https://jackkoppa.github.io/practice-slider/
