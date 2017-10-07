@@ -36,4 +36,3 @@ we must absolutely insist on."
 * Jack Koppa
 * hello@jackkoppa.com
 * [jackkoppa.com](http://jackkoppa.com)
-* [@JackPKoppa](https://twitter.com/JackPKoppa)
