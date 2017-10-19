@@ -1,9 +1,6 @@
-# README #
-
-## Front-End Dev Test for a Web Agency ###
-
+# Practice Slider
+## Background - Front-End Dev Test for a Web Agency
 ### Requirements ###
-
 "You can create this page any way you want, but there are some ground rules
 we must absolutely insist on."
 
@@ -18,7 +15,6 @@ we must absolutely insist on."
     - Safari
 
 ### Highlights ###
-
 * slider is completely functional as a looping show, when changed by clicking arrow navigation, and when pausing/playing
 * an aesthetically pleasing loading bar for easy understanding of slider status
 * minor parallax effect with title overlay
@@ -30,11 +26,7 @@ we must absolutely insist on."
     - styles/slider.scss
     - styles/variables.scss (changeable variables to play w/ aesthetic)
 
-
-### Contact ###
-
-* Jack Koppa
-* hello@jackkoppa.com
-* [jackkoppa.com](http://jackkoppa.com)
-
 Available on GitHub Pages: https://jackkoppa.github.io/practice-slider/
+
+## Running Locally
+Site is purely static; simply open index.html in your browser.
