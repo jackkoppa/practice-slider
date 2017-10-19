@@ -29,4 +29,4 @@ we must absolutely insist on."
 Available on GitHub Pages: https://jackkoppa.github.io/practice-slider/
 
 ## Running Locally
-Site is purely static; simply open index.html in your browser.
+Site is purely static; simply open `index.html` in your browser.
